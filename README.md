@@ -11,4 +11,6 @@ shutdown : Fermeture brutale de l'application
 single_sync/triple_sync : Appui unique/triple sur le bouton de synchronisation (le contenu sur le serveur n'a pas changé)
 
 # Filtres 
-Le fichier filter.txt contient les différents filtres utilisés. Pour le moment, seul des filtres TCP sont appliqués, en fonction des ports utilisés par l'application, obtenus via la commande ´´netstat -a -b´´
+Le fichier filter.txt contient les différents filtres utilisés. Pour le moment, seul des filtres TCP sont appliqués, en fonction des ports utilisés par l'application, obtenus via la commande `netstat -a -b`
+
+Ces filtres ont été appliqués sur les traces originales, et le résultat obtenu peut être consulté dans le dossier `stripped`
