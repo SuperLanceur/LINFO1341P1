@@ -3,15 +3,13 @@ import pyshark
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Open pcapng file at new_startup.pcapng and print general info about it
+# Open pcapng file at new_startup.pcapng
 
 cap = pyshark.FileCapture('new_startup.pcapng')
 
-# Extract all TCP conversations
-
 tcp_conversations = {}
 
-src_ports = [52312, 52313, 52314, 52321, 52322, 52323]
+src_ports = [52312, 52313, 52314, 52321, 52322, 52323] # manually extracted from wireshark
 
 #for each src port, init the dictionary with an empty list
 
