@@ -6,6 +6,10 @@ startup/new_startup : Démarrage de l'application de bureau, en étant connecté
 
 open_tray/tray_clean : Ouverture de l'application minimisée (tray)
 
+relogin : Reconnexion partielle au serveur depuis l'application de bureau (déconnexion/reconnexion)
+
+relogin_full (todo) : Reconnexion complète au serveur (suppression des données locales)
+
 shutdown : Fermeture brutale de l'application
 
 single_sync/triple_sync : Appui unique/triple sur le bouton de synchronisation (le contenu sur le serveur n'a pas changé)
