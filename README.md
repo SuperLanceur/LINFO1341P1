@@ -6,11 +6,17 @@ startup/new_startup : Démarrage de l'application de bureau, en étant connecté
 
 open_tray/tray_clean : Ouverture de l'application minimisée (tray)
 
+peer_to_peer : Tentative de démonstration des capacités P2P de l'application
+
 relogin : Reconnexion partielle au serveur depuis l'application de bureau (déconnexion/reconnexion)
 
-relogin_full (todo) : Reconnexion complète au serveur (suppression des données locales)
-
 shutdown : Fermeture brutale de l'application
+
+startup_and_download : Démarrage de l'application de bureau et téléchargement d'un fichier entier
+
+startup_and_partial_download : Démarrage de l'application et mise à jour d'un fichier déjà présent en local
+
+startup_and_upload : Démarrage de l'application et envoi d'un fichier vers le serveur
 
 single_sync/triple_sync : Appui unique/triple sur le bouton de synchronisation (le contenu sur le serveur n'a pas changé)
 
